@@ -1,0 +1,284 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    cursor: crosshair;
+    font-family: Poppins;
+    background: url (hero jpg) no-repeat 50% 50%;
+}
+
+.containerani{
+    width: 60%;
+    margin: 0 auto;
+    z-index: -1;
+    position: absolute;
+    top:60%;
+    left: 10%;
+    transform: translate(0, -50%);
+}
+.content1 h1{
+    font-family: Poppins;
+    font-size: 54px;
+    color: #101010;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.content1 p{
+    margin-top: 0;
+    text-align: left;
+    color: #101010;
+    font-weight: 400;
+}
+
+.overlay-2{
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #48A9A6;
+}
+
+.overlay{
+    z-index: 1;
+    position: absolute;
+    width:100%;
+    height: 100vh;
+    background: #101010;
+
+}
+
+.overlay p{
+    font-size: 300px;
+    font-weight: 800;
+}
+
+.screen{
+    color: #323232;
+    font-family: Poppins;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.myBtn {
+    font-family:  Poppins;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50%, -50%);
+}
+
+button {
+    display: block;
+    padding: 24px 48px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 6px;
+    color: #fff;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    background: none;
+    z-index: 1;
+    cursor: crosshair;
+    transition: 0.8s ease-out;
+}
+
+.myBtn:hover{
+    color: #101010;
+    cursor: crosshair;
+}
+.myBtn:before{
+    content:"";
+    position: absolute;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    transition: top 0.8s ease-out;
+}
+/*second-page*/
+*{
+    font-family: "Rimouski";
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#main-container{
+    height: 100vh;
+    width: 100Vw;
+    background-color: #293251;
+   
+}
+#lftbx{
+    height: 50vh;
+    float: left;
+    width: 50%;
+    background-color: #293251;
+}
+#chart {
+    width: 100%;
+    height: 100vh;
+    background-color:lightcoral;
+}
+#lftbx-bottom{
+    height: 50vh;
+    float: left;
+    width: 100%;
+    background-color:plum
+}
+#rtbx{
+    height: 100vh;
+    float: right;
+    width: 50%;
+    background-color:rgb(52, 158, 52);
+}
+
+.container{
+    width: 300px;    
+    background-color: #FFF;
+    
+    display: block;
+    margin: 0 auto;
+    
+    
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.app-title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #293251;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    width: 300px;
+    height: 260px;
+    background-color:lightblue;
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 300px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value p:hover{
+    
+}
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.temperature-description{
+    
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1em;
+}
+
+p{
+    font-size: 2em;
+    text-align: center;
+}
+
+agn-map{
+    height: 20rem;
+}
+/*rtbox*/
+
+li {
+    line-height: 1.5;
+}
+
+#kartet {
+    width: 100%;
+    height: 100vh;
+}
+
+.marker {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/4b/McDonald%27s_logo.svg');
+  background-size: contain;
+  width: 50px;
+  height: 38px;  
+  cursor: pointer;
+}
+
+
+
+
+
+.myBtn:hover:before{
+    top: 0;
+}

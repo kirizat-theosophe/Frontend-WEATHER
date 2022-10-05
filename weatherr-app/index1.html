@@ -1,0 +1,59 @@
+<!-- HTML CODE -->
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App - JavaScript</title>
+    <link rel="stylesheet" href="font/Rimouski.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
+    
+</head>
+<body>
+   <div id="main-container">
+    <div id="lftbx">
+    <div class="container">
+        <div class="app.title"><p>Weather</p></div>
+        <div class="notification"></div>
+        <div class="weather-container">
+        <div class="weather-icon"><img src="./icons/unknown.png" alt=""></div>
+        <div class="temperature-value"><p>- °<span>C</span></p></div>
+        <div class="temperature-description"><p>-</p></div>
+        <div class="location"><p>location</p></div>
+        </div>
+        </div> 
+        <div id="lftbx-bottom">
+         <div id="chart"></div>
+         <script src="https://code.highcharts.com/highcharts.src.js"></script>
+
+        </div>
+        </div>
+        
+    <div  id="rtbx">
+        <div id="kartet"></div>
+
+        <!--Set a point after Geocoder result-->
+        <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js"></script>
+<link
+rel="stylesheet"
+href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css"
+type="text/css"
+/>
+<!-- Promise polyfill script required to use Mapbox GL Geocoder in IE 11 -->
+<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+
+<div id="map"></div>
+<!---->
+    </div>
+    </div>
+    
+    
+        
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+
+    
+    <script src="./index.js"></script>
+</body>
+</html>
